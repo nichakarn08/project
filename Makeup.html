@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {fSont-family: "Montserrat", sans-serif;}
+</style>
+
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <center><h3 class="w3-wide"><b>MAKEUP</b></h3></center>
+    <img src="iconn.jpg" alt="Jeans" style="width:100%">
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="" class="w3-bar-item w3-button">HOME</a>
+    <a href="skincare.html" class="w3-bar-item w3-button">Skincare</a>
+    <a href="Makeup.html" class="w3-bar-item w3-button">Makeup</a>
+    <a href="#" class="w3-bar-item w3-button">Baby & Mom</a>
+    <a href="" class="w3-bar-item w3-button">Body & Personal care</a>
+    <a href="perfume.html" class="w3-bar-item w3-button">Perfume</a>
+    <a href="supplement.html" class="w3-bar-item w3-button">Supplements</a>
+    <a href="#" class="w3-bar-item w3-button">User Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Contact</a>
+  </div>
+  <a href="login.html" class="w3-bar-item w3-button w3-padding">Login</a>
+  <a href="register.html" class="w3-bar-item w3-button w3-padding">Register</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">@NISRATSHA</p>
+    <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale"></div>
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="a1.jpg" style="width:100%">
+        <p>Makeup 3in1<br> Eyebrow Powder<br><b>฿145</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="w3-container">
+        <img src="a2.jpg" style="width:100%">
+        <p>Mistine Brows’<br> Secret Compact Eyebrow<br><b>฿105</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="a3.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">New</span>
+          
+        </div>
+        <p>Etude House<br> Glow On Hydra Base<br><b>฿295</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+      <div class="w3-container">
+        <img src="a4.jpg" style="width:100%">
+        <p>4U2 x EVEANDBOY<br> CREAM BLUSH <br><b>฿250</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="a5.jpg" style="width:100%">
+        <p>Peripera <br>Ink Velvet #2<br><b>฿350</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="a6.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Sale</span>
+          <div class="w3-display-middle w3-display-hover">
+          </div>
+        </div>
+        <p>Peripera<br> Ink Velvet #1  <br><b>฿299</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="a7.jpg" style="width:100%">
+        <p>Maybelline <br>Fit Me Matte<br><b>฿160</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+      <div class="w3-container">
+        <img src="a8.jpg" style="width:100%">
+        <p>4U2 You Heart Me <br>Blush SPF35/PA+++ #S5<br><b>฿199</b></p>
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+    </div>
+    <div class="w3-col l3 s6">
+        <div class="w3-container">
+          <img src="a9.jpg" style="width:100%">
+          <p>Eglips Blur <br>Powder Pact #23<br><b>฿225</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+        <div class="w3-container">
+          <img src="a10.jpg" style="width:100%">
+          <p>Etude House <br>Play Color Eyes In The Cafe<br><b>฿960</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+      </div>
+  
+      <div class="w3-col l3 s6">
+        <div class="w3-container">
+          <div class="w3-display-container">
+            <img src="a11.jpg" style="width:100%">
+            <span class="w3-tag w3-display-topleft">New</span>
+          </div>
+          <p>Eglips<br> Glow Powder Pact<br><b>฿225</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+        <div class="w3-container">
+          <img src="a12.jpg" style="width:100%" >
+          <p>Etude House <br>Play Color Eyes </b>฿960</p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+      </div>
+  
+      <div class="w3-col l3 s6">
+        <div class="w3-container">
+          <img src="a13.jpg" style="width:100%">
+          <p>4U2 You Heart Me <br>Blush SPF35/PA+++ #S5<br><b>฿199</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+        <div class="w3-container">
+          <div class="w3-display-container">
+            <img src="a14.jpg" style="width:100%">
+            <span class="w3-tag w3-display-topleft">Sale</span>
+            <div class="w3-display-middle w3-display-hover">
+             
+            </div>
+          </div>
+          <p>Laneige BB Cushion<br> Whitening #21 Beige<br><b class="w3-text-red">฿1050</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+      </div>
+  
+      <div class="w3-col l3 s6">
+        <div class="w3-container">
+          <img src="a15.jpg" style="width:100%">
+          <p>Etude House <br>Play Color Eyes r<br><b>฿960</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+        <div class="w3-container">
+          <img src="a16.jpg" style="width:100%">
+          <p>Srichand Translucent<br> Compact Powder<br><b>฿219</b></p>
+          <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+        </div>
+      </div>
+   
+  </div>
+
+  
+
+</body>
+</html>
+
